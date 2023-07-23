@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-card {
+    margin-top: 100px;
+    padding: 40px;
+    width: 350px;
+}
+
+/* Estilos para centrar el título en la tarjeta */
+.center-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.center-title {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .center-title img {
+    width: 100px; /* Ajusta el ancho según tus preferencias */
+    height: 110px; /* Ajusta la altura según tus preferencias */
+  }
+  .registro-page {
+    background-image: url("https://www.todofondos.net/wp-content/uploads/todofondos-4KparaPC2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }

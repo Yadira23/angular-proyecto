@@ -1,0 +1,47 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-card {
+    margin-top: 100px;
+    padding: 40px;
+    width: 350px;
+}
+
+/* Estilos para centrar el título en la tarjeta */
+.center-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.center-title {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .center-title img {
+    width: 130px; /* Ajusta el ancho según tus preferencias */
+    height: 105px; /* Ajusta la altura según tus preferencias */
+  }
+  /* Personaliza el color del botón con la clase custom-primary-button */
+.custom-primary-button {
+    background-color: #dfb733; /* Puedes ajustar este color según el tono de amarillo oscuro deseado */
+    color: white; /* Ajusta el color del texto si es necesario para asegurar la legibilidad */
+  }
+
+/* Estilos CSS para la página de login */
+/* Estilos CSS para la página de login */
+/* Estilos CSS para la página de login */
+.login-page {
+  background-image: url("https://www.todofondos.net/wp-content/uploads/todofondos-4KparaPC2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+

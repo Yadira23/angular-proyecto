@@ -1,0 +1,19 @@
+<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <!-- Agrega más columnas según los datos que desees mostrar -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of lastUsers">
+        <td>{{ user.name.first }} {{ user.name.last }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+        <!-- Agrega más columnas según los datos que desees mostrar -->
+      </tr>
+    </tbody>
+  </table>
+  

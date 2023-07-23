@@ -1,0 +1,201 @@
+/* dashboard.component.css o dashboard.component.scss */
+/* Ajusta los estilos del drawer y el color del texto */
+
+:host {
+    background-color: #f0f0f0; /* Cambia el color de fondo del drawer a un color más oscuro o el que desees */
+  }
+  
+  .mat-drawer-content {
+    padding: 16px; /* Agrega un espaciado interno al contenido principal para evitar que se superponga con el drawer */
+  }
+  
+  .mat-list-item a {
+    color: rgb(248, 246, 246); /* Cambia el color del texto a negro u otro color visible */
+  }
+  /* dashboard.component.css o dashboard.component.scss */
+/* Ajusta los estilos del drawer y el color del texto */
+
+.drawer-container {
+    background-color: #c8eedc; /* Cambia el color de fondo del drawer a un color más oscuro o el que desees */
+  }
+  
+  .drawer-link {
+    color: black; /* Cambia el color del texto a negro u otro color visible */
+  }
+  /* dashboard.component.css o dashboard.component.scss */
+/* Ajusta los estilos del drawer y la posición */
+
+.drawer-container {
+    display: flex;
+    height: 100vh; /* Asegura que el drawer ocupe toda la altura de la pantalla */
+  }
+  
+  .mat-sidenav {
+    width: 300px; /* Ancho del drawer lateral */
+    position: fixed; /* Fija el drawer en su posición */
+    top: 0; /* Posiciona el drawer en la parte superior */
+    right: 0; /* Posiciona el drawer en el lado derecho */
+  }
+  
+  .main-content {
+    margin-right: 320px; /* Espacio para dejar lugar al drawer lateral */
+    padding: 16px; /* Agrega un espaciado interno al contenido principal */
+  }
+  /* dashboard.component.css o dashboard.component.scss */
+/* Ajusta los estilos del drawer y la posición */
+
+.drawer-container {
+  display: flex;
+  height: 100vh; /* Asegura que el drawer ocupe toda la altura de la pantalla */
+}
+
+.mat-sidenav {
+  width: 300px; /* Ancho del drawer lateral */
+  position: fixed; /* Fija el drawer en su posición */
+  top: 0; /* Posiciona el drawer en la parte superior */
+  left: 0; /* Posiciona el drawer en el lado izquierdo */
+  bottom: 0; /* Hace que el drawer ocupe toda la altura disponible */
+}
+
+.mat-sidenav-content {
+  margin-left: 300px; /* Espacio para dejar lugar al drawer lateral */
+  padding: 16px; /* Agrega un espaciado interno al contenido principal */
+}
+/* Agregar bordes a la tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Mostrar líneas entre las celdas */
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+/* Ajustar el ancho de la tabla */
+table {
+  width: 100%; /* Por ejemplo, para que la tabla ocupe todo el ancho disponible */
+}
+
+/* Ajustar el ancho de las columnas */
+th, td {
+  width: 25%; /* Por ejemplo, para que cada columna ocupe el 25% del ancho total de la tabla */
+}
+
+/* Estilos para el contenedor rosado */
+.pink-container {
+  background-color: #d1f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%; /* Ajusta el ancho según tus preferencias */
+  text-align: center;
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 8px;
+}
+
+/* Estilos para el paginador */
+.mat-paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Estilos para el título de la tabla de usuarios recientes */
+.table-title {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #57be85; /* Color del título */
+}
+
+/* Estilos para la tabla de usuarios recientes */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 10px;
+  border-bottom: 1px solid #110e0e; /* Línea separadora entre filas */
+}
+
+.custom-table th {
+  background-color: #f7f9fa; /* Color de fondo para el encabezado de la tabla */
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Color del texto en el encabezado */
+}
+
+.custom-table td {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #555; /* Color del texto en las celdas */
+}
+
+/* Estilos para el paginador */
+.mat-paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Estilos para quitar las líneas verticales en la tabla */
+table.custom-table {
+  border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
+  width: 100%; /* Ajusta el ancho de la tabla  */
+}
+
+table.custom-table th,
+table.custom-table td {
+  border: none; /* Quita los bordes de las celdas */
+  padding: 5px; /* Añade el espacio interno de la celda según tus preferencias */
+}
+
+/* Estilos adicionales para darle un diseño agradable */
+table.custom-table th {
+  background-color: #f8faf9; /* Color de fondo para el encabezado de la tabla */
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Color del texto en el encabezado */
+}
+
+table.custom-table td {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #555; /* Color del texto en las celdas */
+}
+/* Estilo para hacer las imágenes redondas */
+.custom-table img {
+  border-radius: 50%; /* Aplicar un radio del 50% para crear un círculo */
+}
+
+/* dashboard.component.css */
+
+/* Estilos para el navbar */
+mat-toolbar {
+  height: 64px; /* Ajustar la altura del navbar según tus necesidades */
+  display: flex;
+  justify-content: center; /* Centrar el contenido del navbar horizontalmente */
+  align-items: center; /* Centrar el contenido del navbar verticalmente */
+}
+
+/* Estilos para el título del navbar */
+.navbar-title {
+  font-size: 24px; /* Tamaño de fuente del título */
+  color: white; /* Color del texto del título */
+  font-weight: bold; /* Opcional: Si deseas un título en negrita */
+}
